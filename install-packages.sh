@@ -19,7 +19,6 @@ brew_casks=(
     font-inconsolata-nerd-font
     font-3270-nerd-font
     font-iosevka-nerd-font
-    # Add more Cask names here
     visual-studio-code
     font-inconsolata-go-nerd-font
     font-inconsolata-lgc-nerd-font
@@ -47,3 +46,24 @@ for cask in "${brew_casks[@]}"; do
 done
 
 echo "All Brew packages and Casks installed or updated."
+
+# Package Explanation
+echo -e "\nPackage Explanation:"
+echo "---------------------"
+echo "ca-certificates - Common CA certificates"
+echo "kubernetes-cli - Kubernetes command-line tool"
+echo "ncurses - Text-based UI library"
+echo "openssl@3 - Cryptography and SSL/TLS toolkit"
+echo "tmux - Terminal multiplexer"
+echo "k9s - Kubernetes CLI to manage clusters"
+echo "libevent - Event notification library"
+echo "nushell - Modern shell for the GitHub era"
+echo "starship - Shell prompt with customization"
+echo "utf8proc - Unicode processing library"
+echo "alacritty - GPU-accelerated terminal emulator"
+echo "font-inconsolata-nerd-font - Nerd Font patched Inconsolata font"
+echo "font-3270-nerd-font - Nerd Font patched 3270 font"
+echo "font-iosevka-nerd-font - Nerd Font patched Iosevka font"
+echo "visual-studio-code - Code editor by Microsoft"
+echo "font-inconsolata-go-nerd-font - Nerd Font patched Inconsolata Go font"
+echo "font-inconsolata-lgc-nerd-font - Nerd
