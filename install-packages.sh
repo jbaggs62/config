@@ -16,12 +16,9 @@ brew_packages=(
 
 brew_casks=(
     alacritty
-    font-inconsolata-nerd-font
-    font-3270-nerd-font
-    font-iosevka-nerd-font
+    font-jetbrains-mono-nerd-font
+    font-monofur-nerd-font
     visual-studio-code
-    font-inconsolata-go-nerd-font
-    font-inconsolata-lgc-nerd-font
 )
 
 # Install Homebrew if not installed
@@ -45,8 +42,6 @@ for cask in "${brew_casks[@]}"; do
     brew install --cask "$cask"
 done
 
-echo "All Brew packages and Casks installed or updated."
-
 # Package Explanation
 echo -e "\nPackage Explanation:"
 echo "---------------------"
@@ -61,9 +56,4 @@ echo "nushell - Modern shell for the GitHub era"
 echo "starship - Shell prompt with customization"
 echo "utf8proc - Unicode processing library"
 echo "alacritty - GPU-accelerated terminal emulator"
-echo "font-inconsolata-nerd-font - Nerd Font patched Inconsolata font"
-echo "font-3270-nerd-font - Nerd Font patched 3270 font"
-echo "font-iosevka-nerd-font - Nerd Font patched Iosevka font"
 echo "visual-studio-code - Code editor by Microsoft"
-echo "font-inconsolata-go-nerd-font - Nerd Font patched Inconsolata Go font"
-echo "font-inconsolata-lgc-nerd-font - Nerd
