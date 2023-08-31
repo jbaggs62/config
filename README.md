@@ -14,13 +14,11 @@ Welcome to my Laptop Config Guide
 
 ### Option 2: Automated Installation with Bash Script
 
-You can skip install packages manually down below in the instructions if you chose to use my bash script
-
 1. Run the following command to execute the installation script: 
    ```bash
    sh install-packages.sh
    ```
-   This script automates the installation of Homebrew and all the required packages.
+   *This script automates the installation of Homebrew and all the required packages. You can skip install packages manually down below in the instructions if you chose to use my bash script*
 
 ## Configuring Alacritty Terminal
 
@@ -89,12 +87,8 @@ Here's a breakdown of the packages and casks installed using the provided bash s
 #### Brew Casks:
 
 - **alacritty:** GPU-accelerated terminal emulator for faster performance.
-- **font-inconsolata-nerd-font:** Nerd Font patched Inconsolata font for improved terminal visuals.
-- **font-3270-nerd-font:** Nerd Font patched 3270 font for a unique terminal look.
-- **font-iosevka-nerd-font:** Nerd Font patched Iosevka font for better readability.
 - **visual-studio-code:** Powerful code editor developed by Microsoft for various programming languages.
-- **font-inconsolata-go-nerd-font:** Nerd Font patched Inconsolata Go font for a developer-friendly terminal.
-- **font-inconsolata-lgc-nerd-font:** Nerd Font patched Inconsolata LGC font for enhanced terminal aesthetics.
+
 
 These packages and casks have been carefully chosen to optimize your development environment and enhance your coding experience.
 
